@@ -7,6 +7,7 @@
 :set smarttab
 :set softtabstop=4
 :set mouse=a
+:set clipboard=unnamed
 
 call plug#begin()
 
@@ -31,7 +32,7 @@ nnoremap <C-f> :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 
-nmap <F8> :TagbarToggle<CR>
+nmap <F2> :TagbarToggle<CR>
 
 nnoremap <c-d> :u<CR>
 inoremap <c-d> <c-o>:u<CR>
