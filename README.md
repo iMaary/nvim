@@ -45,11 +45,11 @@ sudo apt-get install clangd-12
 
 ###### Import the clangd to each file to use, if neccessary
 
-####### If you're programming in C/C++ language
+###### If you're programming in C/C++ language
 ```bash
 :CocCommand clangd.install
 ```
-####### If you're programming in Python language
+###### If you're programming in Python language
 ```bash
 :CocInstall coc-python
 ```
