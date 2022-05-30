@@ -43,11 +43,11 @@ sudo apt-get install yarn
 sudo apt-get install clangd-12
 ```
 
-###### Import the clangd to each file to use, if neccessary
+##### Import the clangd to each file to use, if neccessary
 
 ###### If you're programming in C/C++ language
 ```bash
-:CocCommand clangd.install
+:CocInstall coc-clangd
 ```
 ###### If you're programming in Python language
 ```bash
