@@ -13,7 +13,7 @@ sudo apt install neovim
 nvim --version
 ```
 
-### Installing pre-requisites plugins
+### Installing pre-requisites plugins - UBUNTU
 
 #### Tagbar for code navigation requisites
 ```bash
@@ -24,7 +24,7 @@ sudo apt install exuberant-ctags
 
 ###### nodejs
 ```bash
-\\ might be >= v12.22.12
+// might be >= v12.22.12
 sudo apt-get install nodejs
 ```
 
@@ -43,7 +43,44 @@ sudo apt-get install yarn
 sudo apt-get install clangd-12
 ```
 
-##### Import the clangd to each file to use, if neccessary
+### Installing pre-requisites plugins - MacOS
+
+#### Tagbar for code navigation requisites
+```bash
+brew install ctags
+```
+
+#### COC - Conquer of Completion requisites
+
+###### nvm for install node
+```bash
+brew install nvm
+```
+
+###### nodejs
+```bash
+// might be >= v12.22.12
+nvm install --lts
+```
+###### set LTS nodejs version
+
+Here is 16 but it can be whatever lts version is installed in your enviroment.
+```bash
+nvm use 16
+```
+###### uninstall older nodejs version
+
+Here is 16 but it can be whatever older version is installed in your enviroment.
+```bash
+nvm uninstall v10.2.0
+```
+
+###### clangd for C/C++ programming language
+```bash
+brew install llvm
+```
+
+##### Import the clangd to each file to use, if neccessary - NEOVIM (UBUNTU/MacOS)
 
 ###### If you're programming in C/C++ language
 ```bash
