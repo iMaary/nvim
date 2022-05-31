@@ -64,16 +64,18 @@ nvm install --lts
 ```
 ###### set LTS nodejs version
 
-Here is 16 but it can be whatever lts version is installed in your enviroment.
+Here is v16.15.0 but it can be whatever lts version is installed in your enviroment.
 ```bash
 nvm use 16
 ```
+
 ###### uninstall older nodejs version
 
-Here is 16 but it can be whatever older version is installed in your enviroment.
+Here is v10.2.0 but it can be whatever older version is installed in your enviroment.
 ```bash
 nvm uninstall v10.2.0
 ```
+It will to ensure your terminal always opens in a updated version.
 
 ###### clangd for C/C++ programming language
 ```bash
